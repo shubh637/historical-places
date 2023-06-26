@@ -1,0 +1,74 @@
+h1{
+    background-image:url(../images/flag-of-india-ge4cc405c5_1280.jpg);
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+   
+    
+}
+
+
+img{
+    
+    height:300px;
+    width: 700px;}
+.container{
+    @media(max-width:6000px) {
+    background-image: linear-gradient(orange ,white ,green);
+    }
+    
+  
+
+}
+h3{
+    text-decoration: underline;
+}
+.a{
+    grid-area: a1;
+}
+.para{
+
+    grid-area:b1 ;
+}
+.place{
+    height: 300px;
+     border: 2px solid rgb(116, 110, 110);
+    box-shadow: 2px 2px rgb(105, 105, 105);
+    padding:10px;
+    margin:20px;
+    display: grid;
+    grid-template-areas:'a1 a1 a1  b1 b1 b1' ;
+    gap: 5px;
+    font-size: 18px;
+   
+}
+
+p{ 
+    height: 200px;
+    font-size: 18px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+
+.para{
+ 
+    text-align: center;
+    text-transform: capitalize;
+    background: linear-gradient(-45deg, orange, white,green);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+
+}
+
+@keyframes gradient {
+0% {
+background-position: 0% 50%;
+}
+50% {
+background-position: 100% 50%;
+}
+100% {
+background-position: 0% 50%;
+}
+}
